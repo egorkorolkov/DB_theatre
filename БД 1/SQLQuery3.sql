@@ -1,4 +1,4 @@
---определить средние суммы заказов по месяцам
+--РѕРїСЂРµРґРµР»РёС‚СЊ СЃСЂРµРґРЅРёРµ СЃСѓРјРјС‹ Р·Р°РєР°Р·РѕРІ РїРѕ РјРµСЃСЏС†Р°Рј
 
 SELECT YEAR(sales_order.order_date) AS year, MONTH(sales_order.order_date) AS month, AVG(sales_order.total) AS average_sum
 FROM SALES_ORDER

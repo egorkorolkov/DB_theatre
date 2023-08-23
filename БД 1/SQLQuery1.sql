@@ -1,4 +1,4 @@
---выбрать список начальников отдела города DALLAS
+--РІС‹Р±СЂР°С‚СЊ СЃРїРёСЃРѕРє РЅР°С‡Р°Р»СЊРЅРёРєРѕРІ РѕС‚РґРµР»Р° РіРѕСЂРѕРґР° DALLAS
 
 SELECT DISTINCT employee.manager_id, managers.last_name, managers.first_name
 FROM employee managers, employee, department, location
